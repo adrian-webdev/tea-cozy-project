@@ -1,0 +1,145 @@
+  body,
+.overlay{
+  opacity: 0.9;
+  margin: 0;
+font-family: "Helvetica", sans-serif;
+color: seashell;
+background-color: black;
+font-size: 22px;
+text-align: center
+  }
+
+/*Header & Navigation layout*/
+
+
+.nav-cont{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-bottom: 69px;
+  background-color: black;
+}
+
+.logo img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+.nav a{
+  padding: 20px 10px;
+  color: seashell;
+  text-decoration: underline;
+}
+
+
+/*jumbotron layout*/
+
+
+.jumbo-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 69px;
+}
+
+.jumbo{
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.mission{
+background-color: black;
+width:100%
+}
+
+.mission,
+h2,
+h4{
+  margin: 0;
+  padding: 10px;
+}
+
+
+/*Tea seletction layout*/
+
+
+.tea-cont{
+  display: flex;
+  background-color: black;
+  width: 100%;
+  padding-top: 70px;
+  margin: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea-img-cont img{
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px;
+}
+
+.tea-img-cont{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 69px;
+
+}
+.tea-img h4{
+  padding: 5px;
+}
+
+
+/*Location layout*/
+
+
+  .location{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    padding-top: 70px;
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+  }
+
+.locationHead-cont{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.locations-cont{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.locations,
+  .overlay{
+    opacity: 1;
+    background-color: black;
+    width: 300px;
+
+
+}/*Footer layout*/
+
+
+.footer{
+  height: 200px;
+}
+.copywrite{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
